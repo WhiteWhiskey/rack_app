@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Jason Hames</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template go here -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/00d91e0c07.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head> 
+
+  <body>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <div class="text-center">
+              <h1 class="display-3">Happy <%= Time.now.strftime('%A') %>.</h1>
+              <p class="lead">This is a simple rack application built by <a class="orange-link" href="jasonhames.info" target='_blank'>me.</a></p>
+              <hr class="my-2">
+              <div class="col s12 m2">
+                  <a class="z-depth-5 orange-link" href="https://www.facebook.com/melhoir" target='_blank'><i class="fa fa-5x fa-facebook fa-icon" aria-hidden="true"></i></a>
+                  <a class="z-depth-5 orange-link" href="https://twitter.com/melhoir" target='_blank'><i class="fa fa-5x fa-twitter fa-icon" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class=" col-xs-12 text-center text-size-up card-panel">
+              <h1>What is this?</h1>
+              <p>Well, this is my attempt to use Rack to serve up a webpage. Rack provides a minimal interface between webservers that support Ruby and Ruby frameworks. Rack sits between the web application and the server so that the application does not need to know how to talk to the HTTP server, it just needs to know how to talk to Rack.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+    <!--Bootstrap jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap core JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+  </body>
+
+</html>

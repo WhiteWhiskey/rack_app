@@ -1,0 +1,19 @@
+.jumbotron {
+	background-color: #194284;
+	color: #fff;
+}
+
+.orange-link {
+	color: #FF841E;
+}
+
+.fa-icon {
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.text-size-up {
+	font-size: 1.5em;
+}
